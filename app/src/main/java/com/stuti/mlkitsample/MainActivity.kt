@@ -90,6 +90,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     private fun startCamera() {
         val processCameraProvider = ProcessCameraProvider.getInstance(this)
         processCameraProvider.addListener({
